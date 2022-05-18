@@ -1,5 +1,6 @@
 <template>
-  <div
+  <!-- Cabin landing image with logo, and slogan. -->
+  <section
     id="app"
     class="hero min-h-screen"
     style="background-image: url('assets/images/wide-house.jpeg')">
@@ -15,7 +16,7 @@
         </button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

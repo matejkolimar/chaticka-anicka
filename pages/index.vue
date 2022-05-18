@@ -1,7 +1,8 @@
 <template>
-  <home-section />
-  <feature-section />
-  <gallery-section />
+  <cabin-landing />
+  <cabin-info />
+  <cabin-amenities />
+  <cabin-gallery />
 </template>
 
 <script></script>
