@@ -1,5 +1,7 @@
 <template>
-  <div
+  <!-- Cabin landing image with logo, and slogan. -->
+  <!-- TODO: fix image position on mobile -->
+  <section
     id="app"
     class="hero min-h-screen"
     style="background-image: url('assets/images/wide-house.jpeg')">
@@ -15,7 +17,7 @@
         </button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

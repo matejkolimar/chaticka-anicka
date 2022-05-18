@@ -1,5 +1,6 @@
 <template>
-  <section class="bg-white py-10 md:py-16">
+  <!-- Cabin gallery  -->
+  <section class="bg-white md:py-16 px-2">
     <div class="container max-w-screen-xl mx-auto px-4">
       <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">
         Our Gallery

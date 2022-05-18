@@ -1,4 +1,5 @@
 <template>
+  <!-- Basic info about cabin (location, amenities, etc) -->
   <section class="bg-white py-10 md:py-16 xl:relative">
     <div class="justify-center text-center px-4 md:px-48">
       <h1 class="text-5xl font-bold">Chata sa nachádza ...</h1>
@@ -27,14 +28,14 @@
         kuchyne, ktorú si určite užijete aj vy.
       </p>
     </div>
-    <div class="flex flex-wrap justify-center">
+  </section>
+
+  <!-- <div class="flex flex-wrap justify-center">
       <div
         class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <img src="../assets/images/svg/view.svg" alt="" class="h-20 m-12" />
 
-        <a
-          href="#"
-          class="btn-primary text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
           Výhľad na jazero
         </a>
       </div>
@@ -43,9 +44,7 @@
         class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <img src="../assets/images/svg/grill.svg" alt="" class="h-20 m-12" />
 
-        <a
-          href="#"
-          class="btn-primary text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
           Krb a ohnisko
         </a>
       </div>
@@ -54,10 +53,17 @@
         class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <img src="../assets/images/svg/kitchen.svg" alt="" class="h-20 m-12" />
 
-        <a
-          href="#"
-          class="btn-primary text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
           Plne vybavená kuchyňa
+        </a>
+      </div>
+
+      <div
+        class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <img src="../assets/images/svg/parking.svg" alt="" class="h-20 m-12" />
+
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
+          Parkovanie
         </a>
       </div>
 
@@ -65,14 +71,54 @@
         class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
         <img src="../assets/images/svg/terrace.svg" alt="" class="h-20 m-12" />
 
-        <a
-          href="#"
-          class="btn-primary text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
           Terasa
         </a>
       </div>
     </div>
-    <!-- <div class="container max-w-screen-xl mx-auto px-4 py-10">
+
+    <div class="flex flex-wrap justify-center">
+      <div
+        class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <img src="../assets/images/svg/grill.svg" alt="" class="h-20 m-12" />
+
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
+          Krb a ohnisko
+        </a>
+      </div>
+
+      <div
+        class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <img
+          src="../assets/images/svg/outside-place.svg"
+          alt=""
+          class="h-20 m-12" />
+
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
+          Vonkajšie stolovanie
+        </a>
+      </div>
+
+      <div
+        class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <img src="../assets/images/svg/parking.svg" alt="" class="h-20 m-12" />
+
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
+          Parkovanie
+        </a>
+      </div>
+
+      <div
+        class="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+        <img src="../assets/images/svg/terrace.svg" alt="" class="h-20 m-12" />
+
+        <a href="#" class="bg-primary text-white p-3 text-center btn-disabled">
+          Terasa
+        </a>
+      </div>
+    </div> -->
+
+  <!-- <div class="container max-w-screen-xl mx-auto px-4 py-10">
       <div class="flex flex-col xl:flex-row justify-end gap-12">
         <div class="">
           <div
@@ -180,8 +226,7 @@
         </div>
       </div>
     </div> -->
-    <!-- container.// -->
-  </section>
+  <!-- container.// -->
 </template>
 
 <script>
