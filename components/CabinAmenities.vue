@@ -39,7 +39,6 @@
     </div>
 
     <!-- Kitchen amenities -->
-
     <div class="flex md:w-1/3 md:justify-center">
       <ul class="w-full md:max-w-md">
         <p class="p-4 mb-3 text-center font-bold text-xl">Kuchyňa</p>

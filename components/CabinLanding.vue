@@ -1,6 +1,5 @@
 <template>
   <!-- Cabin landing image with logo, and slogan. -->
-  <!-- TODO: fix image position on mobile -->
   <section
     id="app"
     class="hero min-h-screen"
